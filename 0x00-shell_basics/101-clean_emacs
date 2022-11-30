@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '*_thumb.png' -exec rm -f {} +
+rm *~
