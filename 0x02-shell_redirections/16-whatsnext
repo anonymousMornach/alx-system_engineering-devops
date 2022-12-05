@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(less /etc/passwd | grep root???)"
+grep -B 4 "root" /etc/passwd
