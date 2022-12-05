@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(less /etc/passwd)" "\n" "$(less /etc/hosts)"
+echo "$(less /etc/passwd)" "$(less /etc/hosts)"
